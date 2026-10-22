@@ -332,3 +332,7 @@ nav a[aria-current="page"] .navsub { color: var(--muted); }
   nav a[href="tathya-guru.html"] { text-align: center; line-height: 1.15; }
   nav a .navsub { display: block; font-size: .7rem; line-height: 1.1; margin-top: 1px; }
 }
+
+/* product sites: brand name with a small descriptor underneath */
+.brandtxt { display: inline-flex; flex-direction: column; line-height: 1.1; }
+.brandtxt small { font-size: .62rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-top: 2px; }
